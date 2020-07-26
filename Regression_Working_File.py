@@ -10,7 +10,7 @@ data = pd.read_csv("student-mat.csv", sep=";")
 data = data[["G1", "G2", "G3", "studytime", "failures", "absences"]]
 # print(data.head()) #prints out only the above 6 now
 
-#predict is also known as the label
+#predict is also known as the label .
 predict = "G3"
 
 #all of our features/attr
