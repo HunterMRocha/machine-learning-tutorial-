@@ -29,5 +29,8 @@ print(f"Coefficients:\n {linear.coef_}")
 print(f"Intercept:\n {linear.intercept_}")
 
 predictions = linear.predict(x_test)
-print(predictions)
+
+print("Answer\t[Beginning-Grade]\t[End-Grade]\t[Study-Time]\t[Failures]\t[Absences]\t[Actual Grade]")
+for x in range(len(predictions)):
+    print(predictions[x], x_test[x], y_test[x])
 
