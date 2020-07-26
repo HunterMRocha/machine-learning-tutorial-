@@ -28,3 +28,6 @@ print(f"Accuracy: {acc}")
 print(f"Coefficients:\n {linear.coef_}")
 print(f"Intercept:\n {linear.intercept_}")
 
+predictions = linear.predict(x_test)
+print(predictions)
+
