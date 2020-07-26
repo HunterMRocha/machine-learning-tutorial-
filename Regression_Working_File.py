@@ -25,3 +25,6 @@ linear = linear_model.LinearRegression()
 linear.fit(x_train, y_train)
 acc = linear.score(x_test, y_test)
 print(f"Accuracy: {acc}")
+print(f"Coefficients:\n {linear.coef_}")
+print(f"Intercept:\n {linear.intercept_}")
+
